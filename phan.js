@@ -11,7 +11,6 @@ page.open('https:/instagram.com/accounts/login/', function() {
 			  y: box.top 
 			};
 		}	
-
 		function getPosition(type, name) {
 			// find fields to fill
 			var input = document.getElementsByTagName(type);
